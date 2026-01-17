@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+
+    <title>世界一甘い店</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <h2>世界一甘い店</h2>
+    </header>
+    <main>
+        <div class="side">
+            <ul>
+                <li><a href="https://www.mtgec.jp/wellness/sixpad/?utm_source=microsoft&utm_medium=cpc&utm_campaign=sixpad_common_cv_s-brand_on&msclkid=61025a584a441026e9af3333d284f03c#">トップ</a></li>
+                <li><a href="https://www.mtgec.jp/wellness/sixpad/products/perinefit/">新着情報</a></li>
+                <li><a href="https://www.lapoppofarm.shop/c/products/ct_sweetpotato">おすすめのスイーツ</a></li>
+                <li><a href="https://thenewgate.co.jp/">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <table border="4">
+                <tr>
+                    <th>お名前</th>
+                    <td><input type="text" name="name" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <th>お近くのお店</th>
+                    <td><select name="place">
+                        <option value="hokkaido">北海道・東北</option>
+                        <option value="kantoh">関東</option>
+                        <option value="chubu">中部</option>
+                        <option value="kansai">関西</option>
+                        <option value="chugoku">中国・四国</option>
+                        <option value="kyushu">九州・沖縄</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td><input type="text" name="tel" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス</th>
+                    <td><input type="text" name="email" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ場所</th>
+                    <td><input type="radio" name="content" value="商品">商品について
+                        <input type="radio" name="content" value="従業員">従業員について
+                　　</td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ内容</th>
+                    <td><textarea name="naiyou" placeholder="詳細を入力してください" rows="5" cols="30"></textarea></td>
+                </tr>
+            </table>
+            <input type="button" value="送信" class="button">
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
