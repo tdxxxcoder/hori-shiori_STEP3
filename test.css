@@ -35,9 +35,9 @@ h2{
 }
 
 .button{
-    position: fixed;
-    bottom: 255px;
-    right: 600px;
+    position: relative;
+    bottom: -135px;
+    left: -40px;
 }
 
 footer{
